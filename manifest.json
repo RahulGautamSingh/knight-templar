@@ -1,0 +1,15 @@
+{
+  "manifest_version": 3,
+  "name": "Knight Templar",
+  "version": "1.0",
+  "description": "Redirects specified domains to items in your reading list.",
+  "permissions": ["webNavigation", "bookmarks", "tabs"],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "host_permissions": [
+    "*://*.twitter.com/*",
+    "*://*.reddit.com/*",
+    "*://*.youtube.com/*"
+  ]
+}
