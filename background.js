@@ -47,4 +47,3 @@ chrome.webNavigation.onBeforeNavigate.addListener(async (details) => {
     }
   }
 });
-
