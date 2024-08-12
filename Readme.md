@@ -44,3 +44,8 @@ So, the extension does the following:
 ## Why to use this or make this?
 
 Started as a thought, now I wish to complete it and implement all the features majorly for the sake of it. It is still useful in its current state as I have read some of the articles that I had stored from god knows when.
+
+### Why name Knight Templar?
+
+Because I a piligrim who seeks knowledge, the path for it is the internet and the excessive social media are the invaders.
+The extension protects me.
