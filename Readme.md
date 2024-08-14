@@ -41,6 +41,10 @@ So, the extension does the following:
 3. Add tests
 4. Add CI/CD
 
+## Working pattern
+
+I made this minimum viable using Claude.ai. Currently, I use it daily and add fixes or features as I encounter them when using it. I have a plan to include it in Peerlist showcase your project in October ✝️
+
 ## Why to use this or make this?
 
 Started as a thought, now I wish to complete it and implement all the features majorly for the sake of it. It is still useful in its current state as I have read some of the articles that I had stored from god knows when.
