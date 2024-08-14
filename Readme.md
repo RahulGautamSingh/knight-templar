@@ -47,5 +47,5 @@ Started as a thought, now I wish to complete it and implement all the features m
 
 ### Why name Knight Templar?
 
-Because I a piligrim who seeks knowledge, the path for it is the internet and the excessive social media are the invaders.
-The extension protects me.
+Like a kinght templar proected the christian devotess when visting the holy site.
+This extension will protect me from doom scrolling.
