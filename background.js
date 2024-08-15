@@ -34,8 +34,9 @@ async function moveBookmarkToReadFolder(bookmark) {
 const urlRegex = /(twitter|reddit|youtube|whatsapp|instagram)/;
 // Listen for web navigation events
 chrome.webNavigation.onBeforeNavigate.addListener(async (details) => {
-  // Check if the URL is twitter.com
-  if (urlRegex.test(details.url)) {
+  // Check if the URL is one of the social sites & the top level frame 
+  // ref: https://github.com/RahulGautamSingh/knight-templar/issues/1
+  if (urlRegex.test(details.url) && details.frameType === 'outermost_frame') {
     const bookmark = await getFirstBookmark();
 
     if (bookmark) {
