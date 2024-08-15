@@ -31,7 +31,7 @@ async function moveBookmarkToReadFolder(bookmark) {
   await chrome.bookmarks.move(bookmark.id, { parentId: readFolder.id });
 }
 
-const urlRegex = /(twitter|reddit|youtube)/;
+const urlRegex = /(twitter|reddit|youtube|whatsapp|instagram)/;
 // Listen for web navigation events
 chrome.webNavigation.onBeforeNavigate.addListener(async (details) => {
   // Check if the URL is twitter.com
