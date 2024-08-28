@@ -1,5 +1,7 @@
 # Knight Templar
 
+![image](https://github.com/user-attachments/assets/a7f4a2a3-c6b4-4883-ae70-dfb6c99a551c)
+
 ## Introduction
 
 Knight Templar is a web-browser extension.
