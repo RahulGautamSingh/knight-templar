@@ -7,7 +7,7 @@ async function getFirstBookmark() {
   const readingListFolder = bookmarks[0];
   const children = await chrome.bookmarks.getChildren(readingListFolder.id);
   if (children.length === 0) return null;
-  return children.slice(-1);
+  return children.slice(-1)[0];
 }
 
 // todo:: not working
