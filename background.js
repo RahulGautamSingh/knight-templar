@@ -4,7 +4,7 @@ async function getFirstBookmark() {
   const bookmarks = await chrome.bookmarks.search({ title: "Reading List" });
   if (bookmarks.length === 0) return null;
 
-  const readingListFolder = bookmarks[0];
+  const readingListFolder = bookmarks.slice(-1);
   const children = await chrome.bookmarks.getChildren(readingListFolder.id);
   if (children.length === 0) return null;
   return children[0];
