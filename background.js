@@ -4,10 +4,10 @@ async function getFirstBookmark() {
   const bookmarks = await chrome.bookmarks.search({ title: "Reading List" });
   if (bookmarks.length === 0) return null;
 
-  const readingListFolder = bookmarks.slice(-1);
+  const readingListFolder = bookmarks[0];
   const children = await chrome.bookmarks.getChildren(readingListFolder.id);
   if (children.length === 0) return null;
-  return children[0];
+  return children.slice(-1);
 }
 
 // todo:: not working
@@ -34,9 +34,9 @@ async function moveBookmarkToReadFolder(bookmark) {
 const urlRegex = /(twitter|x|reddit|youtube|whatsapp|instagram)[.]com/;
 // Listen for web navigation events
 chrome.webNavigation.onBeforeNavigate.addListener(async (details) => {
-  // Check if the URL is one of the social sites & the top level frame 
+  // Check if the URL is one of the social sites & the top level frame
   // ref: https://github.com/RahulGautamSingh/knight-templar/issues/1
-  if (urlRegex.test(details.url) && details.frameType === 'outermost_frame') {
+  if (urlRegex.test(details.url) && details.frameType === "outermost_frame") {
     const bookmark = await getFirstBookmark();
 
     if (bookmark) {
