@@ -54,4 +54,7 @@ Started as a thought, now I wish to complete it and implement all the features m
 ### Why name Knight Templar?
 
 Like a kinght templar proected the christian devotess when visting the holy site.
-This extension will protect me from doom scrolling.
+This extension will protect me from doom scrolling while while on the path to reading.
+
+
+
