@@ -26,7 +26,7 @@ So, the extension does the following:
 2. Adding read articles to `Read` folder
 3. Add Icon
 4. Structure Code
-5. If article url is one of `(youtube|twitter|reddit).com`!, then prevent the infinte loop
+5. ~If article url is one of `(youtube|twitter|reddit).com`!, then prevent the infinte loop~
 
 ## Things to figure out
 
