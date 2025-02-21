@@ -5,14 +5,11 @@
 ## Introduction
 
 Knight Templar is a web-browser extension.
-It helps me read more of what I want and consume less of what I should not.
+It helps you read more of what you want and consume less of what you want to reduce.
 
 ## How It Works
 
-I add any article/blog that I find intresting to a folder in my bookmarks named "Reading List".
-I usually find these articles on reddit, youtube, email subscriptions and twitter.
-To find the articles, I visit these sites but get stuck in the doom scrolling.
-
+Add any article/blog that you find interesting to a folder in the browser bookmarks named "Reading List".
 So, the extension does the following:
 
 1. Whenever I try to browser to `(youtube|twitter|reddit).com` it intercepts and ...
